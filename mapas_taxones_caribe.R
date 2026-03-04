@@ -140,17 +140,35 @@ generar_mapa_especie <- function(nombre_especie) {
 # 4. EJECUCIÓN CON LA LISTA DE TAXONES
 # ==============================================================================
 
-# Lista curada para compatibilidad con GBIF (Solo los taxones faltantes)
+# Lista curada para compatibilidad con GBIF
 lista_taxones <- c(
+  "Rhizophora mangle",
+  "Caulerpa verticillata",
+  "Caulerpa sertularioides",
   "Padina",
   "Corallinales", # En lugar de "algas coralinas crustosas"
+  "Haliclona caerulea",
+  "Tedania ignis",
+  "Amphimedon viridis",
+  "Exaiptasia pallida",
+  "Aurelia aurita", # Nombre correcto para "aurelia aurelita"
+  "Mnemiopsis leidyi",
+  "Sabellastarte magnifica",
   "Isognomon",
   "Spondylus",
   "Pecten",
   "Mytilidae", # En lugar de "famillia mytilidae"
+  "Amphibalanus eburneus",
   "Ophiothrix",
   "Ophiopsila",
-  "Ophioderma"
+  "Ophioderma",
+  "Styracura schmardae",
+  "Urobatis jamaicensis",
+  "Lactophrys triqueter",
+  "Lutjanus apodus",
+  "Sphyraena barracuda",
+  "Scarus iseri",
+  "Scarus taeniopterus"
 )
 
 # Ejecutar el bucle
